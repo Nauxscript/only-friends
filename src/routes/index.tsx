@@ -1,9 +1,10 @@
 import { A } from 'solid-start'
+import Circle from '../components/Circle';
 
 export default function Home() {
   return (
     <main px-4 py-10 text-center>
-      <div text-4xl>
+      {/* <div text-4xl>
         <div i-carbon-mountain inline-block=""></div>
       </div>
       <p>
@@ -19,7 +20,8 @@ export default function Home() {
         <A href="https://github.com/Nauxscript/vitesse-lite-solid">
           <div i-carbon-logo-github inline-block="" text-gray hover:text-dark mx-1></div>
         </A>
-      </nav>
+      </nav> */}
+      <Circle></Circle>      
     </main>
   )
 }
