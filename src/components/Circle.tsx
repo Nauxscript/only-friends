@@ -1,3 +1,5 @@
+import { A } from 'solid-start'
+
 export default function Circle(){
   return (
     <div p-4 box-content w-60 h-84 rounded-md border-solid border-2 border-gray-100 overflow-hidden relative flex flex-col justify-end shadow-md hover:shadow-xl transition-all cursor-pointer>
@@ -9,6 +11,9 @@ export default function Circle(){
           <img src="https://sdfsdf.dev/28x28.png" rounded-full mx-1 alt="avatar" />
           <span>John Doe</span>
         </div>
+        <A href='/circle'>
+          <span absolute h-full w-full top-0 left-0></span>
+        </A>
         <h3 text-left my-2 text-slate-50>This is your friend circle</h3>       
       </div>
     </div>
